@@ -250,5 +250,6 @@ export const resumes: Resume[] = [
     The job title is: ${jobTitle}
     The job description is: ${jobDescription}
     Provide the feedback using the following format: ${AIResponseFormat}
+    Carefully read the attached resume content in full before scoring. Every "score" must be a calculated integer between 0-100 based on specific evidence from the resume — never default to 0 unless that category is genuinely and completely absent.
     Return the analysis as a JSON object, without any other text and without the backticks.
     Do not include any other text or comments.`;

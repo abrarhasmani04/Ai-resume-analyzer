@@ -51,8 +51,8 @@ function upload() {
     
             setStatusText('Analyzing....')
             const feedback = await ai.feedback(
-                uploadedFile.path,
-                prepareInstructions({ jobTitle, jobDescription })
+                uploadedImage.path,
+                prepareInstructions({jobTitle,jobDescription})
             )
     
             console.log('AI feedback raw response:', feedback)
